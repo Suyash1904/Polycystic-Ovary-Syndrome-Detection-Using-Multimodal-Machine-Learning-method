@@ -2,29 +2,9 @@
 This project presents a multimodal machine learning system to diagnose Polycystic Ovary Syndrome (PCOS) using both clinical blood report data and ultrasound images.
 By combining structured (tabular) and unstructured (image) data sources, the system aims to improve early detection accuracy using classical machine learning and deep learning approaches.
 
-📁 Project Structure
-
-.
-├── data/
-│   ├── blood_reports.csv
-│   └── ultrasound_images/
-│       ├── PCOS/
-│       └── Non-PCOS/
-├── models/
-│   ├── random_forest_model.pkl
-│   └── cnn_model.h5
-├── src/
-│   ├── tabular_model.py
-│   ├── cnn_model.py
-│   ├── fusion.py
-│   └── utils.py
-├── app/
-│   └── streamlit_app.py
-├── README.md
-└── requirements.txt
-
 🚀 Features
-🔬 Tabular Diagnosis: Uses features such as BMI, testosterone levels, and follicle counts.
+
+🔬 Tabular Diagnosis:Uses features such as BMI, testosterone levels, and follicle counts.
 
 🖼️ Image Diagnosis: CNN model trained on ultrasound images to detect ovarian morphology.
 
